@@ -1,0 +1,9 @@
+﻿O que é?
+Padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas
+
+Quando usar?
+Quando precisa trabalhar com diversas famílias de produtos relacionados, mas que você não quer depender de classes concretas daqueles produtos-eles podem ser desconhecidos de antemão ou você simplesmente quer permitir uma futura escalabilidade
+
+fonte:
+https://refactoring.guru/pt-br/design-patterns/abstract-factory
+https://code4coders.wordpress.com/2016/04/29/principios-de-design-patterns-em-c-abstract-factory/
