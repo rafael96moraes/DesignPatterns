@@ -13,7 +13,7 @@ namespace FactoryMethod
 
             new Email().SendEmailEquities();
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 

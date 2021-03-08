@@ -7,25 +7,26 @@ using System.Threading.Tasks;
 
 namespace Builder.Builder
 {
+    #region Builder Extension
     internal static class PersonBuilderExtensions
     {
         internal static PersonBuilder AddWork(this PersonBuilder builder, string position)
         {
-            builder.Action.Add(p => { p.Position = position; });
+            builder.Action.Add(p => { p.Work = position; });
             return builder;
         }
     }
+    #endregion
 
     internal class PersonBuilder
     {
-        public readonly List<Action<Person>> Action = new List<Action<Person>>();
+        internal readonly List<Action<Person>> Action = new List<Action<Person>>();
 
-        internal PersonBuilder Called(string name)
+        internal PersonBuilder AddName(string name)
         {
             Action.Add(p => { p.Name = name; });
             return this;
         }
-
 
         internal Person Build()
         {

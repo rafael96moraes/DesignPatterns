@@ -8,9 +8,13 @@ namespace Builder
         static void Main(string[] args)
         {
             var pb = new PersonBuilder();
-            var person = pb.Called("Fulano")
+            var person = pb.AddName("Fulano")
                 .AddWork("Professional Football Player")
                 .Build();
+
+            Console.WriteLine("Name: " + person.Name + "\n");
+            Console.WriteLine("Work: " + person.Work + "\n");
+            Console.ReadKey();
         }
     }
 }

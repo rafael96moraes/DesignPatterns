@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Builder.Models
 {
-    class Person
+    internal class Person
     {
         internal string Name { get; set; }
-
-        internal string Position { get; set; }
+        internal string Work { get; set; }
     }
 }

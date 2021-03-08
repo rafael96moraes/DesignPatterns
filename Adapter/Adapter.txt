@@ -1,0 +1,5 @@
+﻿O que é:
+Padrão de projeto estrutural que permite objetos com interfaces incompatíveis colaborarem entre si.
+
+Quando usar:
+Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.

@@ -26,7 +26,7 @@ namespace AbstractFactory
             var cmdOracle = oracle.CreateCommand();
             cmdOracle.Execute();
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
