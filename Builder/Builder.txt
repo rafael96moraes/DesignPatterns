@@ -1,0 +1,9 @@
+﻿O que é?
+Um padrão de projeto criacional, que permite a construção de objetos complexos passo a passo.
+
+Quando usar?
+Quando precisa lidar objetos complexos e ser capaz de criar diferentes representações do mesmo produto (exemplo: casa de pedra e casa de madeira)
+
+Fontes:
+https://www.youtube.com/watch?v=uK5SGBam0Uk&ab_channel=DmitriNesteruk
+https://refactoring.guru/pt-br/design-patterns/builder/csharp/example#lang-features

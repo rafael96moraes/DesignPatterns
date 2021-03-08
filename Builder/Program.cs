@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Builder.Builder;
+using System;
 
 namespace Builder
 {
@@ -6,7 +7,10 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var pb = new PersonBuilder();
+            var person = pb.Called("Fulano")
+                .AddWork("Professional Football Player")
+                .Build();
         }
     }
 }
